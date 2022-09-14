@@ -168,7 +168,11 @@ section {
 }
 
 figure p {
-    background-color: rgba(red, green, blue, 30%);
+    text-align: center;
+    margin-top: 120px;
+    margin-right: 10px;
+    font-size: 1em;
+    background-color: rgba(0, 0, 0, 60%);
 }
 
 #Content p {
