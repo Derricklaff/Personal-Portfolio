@@ -59,6 +59,8 @@ h1 {
 }
 
 
+
+
 .about div {
     padding: 80px;
     width: 50%;
@@ -113,6 +115,9 @@ header a:hover {
     color: var(--light);
     display: flex;
     justify-content: space-between;
+    border-bottom: var(--light) thick solid;
+    margin-bottom: 20px;
+    padding-bottom: 75px;
 }
 
 #Name {
@@ -131,7 +136,7 @@ section {
 }
 
 #header {
-    width: 35%;
+    width: 15%;
 }
 
 #header h2 {
@@ -187,6 +192,33 @@ figure p {
     margin-right: 10px;
     font-size: 1em;
     background-color: rgba(0, 0, 0, 60%);
+}
+
+#side-proj h3 {
+    margin-top: 85px;
+    margin-bottom: 10%;
+}
+
+#migi {
+    max-width: 33%;
+    background-image: url("./images/IMG_3141.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+#kuma {
+    margin-top: 20px;
+    max-width: 33%;
+    background-image: url("./images/IMG_3140.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.place-holder {
+    margin-left: 110%;
+    font-size: 1.3em;
 }
 
 #Content p {
