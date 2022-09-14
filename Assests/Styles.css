@@ -1,0 +1,182 @@
+:root {
+    --dark: #0a192f;
+    --light: #64ffda;
+}
+
+body {
+    background-color: var(--dark);
+    margin: 2em 2em;
+}
+
+header {
+    border: #64ffda solid 3px;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+p {
+    font-family: sans-serif;
+    margin-left: 10px;
+    color: var(--light);
+    line-height: 1.5em;
+    font-size: 32px;
+}
+
+img {
+    margin-top: 40px;
+    max-width: 20em;
+    height: auto;
+
+}
+
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    color: var(--light);
+}
+
+.main-header a {
+    cursor: pointer;
+    padding: 1em;
+    font-size: larger;
+    color: var(--light);
+    text-decoration: none;
+}
+
+#About-Me {
+    margin: 200px 3px 130px 3px;
+    padding-top: 5px;
+    display: flex;
+    border-top: var(--light) thick solid;
+}
+
+h1 {
+    color: var(--light);
+}
+
+
+.about div {
+    padding: 80px;
+    width: 50%;
+}
+
+.about h2 {
+    padding: 55px 0px;
+    margin: 15px 5px;
+    width: 15%;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 42px;
+    color: var(--light);
+    border-right: var(--light) 3px dotted;
+}
+
+
+
+a:hover {
+    background-color: var(--light);
+    transition: .5s ease;
+    color: var(--dark);
+}
+
+
+.about {
+    align-items: center;
+}
+
+.about-text {
+    color: var(--light);
+
+}
+
+.main-header {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: space-between;
+}
+
+.contact-info {
+    color: #64ffda;
+}
+
+#nav {
+    padding: 15px;
+    margin: 19px 0px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+#Work {
+    color: var(--light);
+    display: flex;
+    justify-content: space-between;
+}
+
+#Name {
+    padding-left: 20px;
+    padding-top: 24px;
+    font-size: 2.5em;
+}
+
+
+section {
+    border-top: var(--light) thick solid;
+    display: flex;
+    justify-content: space-between;
+    min-height: 500px;
+    color: white;
+}
+
+#header {
+    width: 35%;
+}
+
+#header h2 {
+    color: var(--light);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3em;
+    margin-right: 50px;
+    position: relative;
+    top: 222px;
+    left: 15px;
+}
+
+#Content {
+    /* background-color: green; */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Content h3 {
+    font-size: 2.5em;
+    margin: 30px
+}
+
+#Content figure {
+    max-width: 60%;
+    background-image: url('./images/First-Half.jpg.JPG');
+    background-size: cover;
+    background-position: center;
+    min-height: 60%;
+    margin: 30px;
+    color: black;
+}
+
+figure p {
+    background-color: rgba(red, green, blue, 30%);
+}
+
+#Content p {
+    visibility: hidden;
+}
+
+#Content figure:hover p {
+    visibility: visible;
+}
+
+/* Aria-label
