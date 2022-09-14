@@ -229,4 +229,30 @@ figure p {
     visibility: visible;
 }
 
+
+#Contact-Me {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.contact-info {
+    font-size: 16px;
+}
+
+.phone-number:hover {
+    font-size: 0;
+    background-color: var(--light);
+    color: var(--dark);
+    transition: ease;
+    transition-duration: .75;
+}
+
+.phone-number:hover::after {
+    content: attr(data-hover);
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 /* Aria-label
