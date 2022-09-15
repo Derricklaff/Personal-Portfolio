@@ -11,5 +11,8 @@
 ### I do hope with more work added in place of the current placeholders, the page will grow bigger thus showing off the "scroll when click" mechanic i put into the hrefs
 
 ### Snippets of deployed site
-![SCREENSHOTS](asset/images/first-half-portfolio.jpg)
-![SCREENSHOTS](asset/images/second-half-portfolio.jpg)
+![SCREENSHOTS](/Assests/images/first-half-portfolio.JPG)
+![SCREENSHOTS](/Assests/images/second-half-portfolio.JPG)
+
+[LIVE-SITE]( https://derricklaff.github.io/Personal-Portfolio/)
+[REPO-LINK](https://github.com/Derricklaff/Personal-Portfolio)
