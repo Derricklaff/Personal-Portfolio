@@ -3,11 +3,13 @@
     --light: #64ffda;
 }
 
+/* Although there arent many different variables i still wanted to get used to using them even if it was for something as simple as just light and dark themed colors. */
 body {
     background-color: var(--dark);
     margin: 2em 2em;
 }
 
+/* although i am not to good at the flex property i believe i did a very good just with flex elements in my header! */
 header {
     border: #64ffda solid 3px;
     display: flex;
@@ -18,6 +20,7 @@ ul li {
     display: inline-block;
 }
 
+/* tried to use em in a succesful way to get a better undesrtanding what the difference was between em, rem, px, and % */
 p {
     font-family: sans-serif;
     margin-left: 10px;
@@ -78,7 +81,7 @@ h1 {
 }
 
 
-
+/* I could have used the name id but decided to just use the <a> selector within the header since there was not much content inside the header other than the <a> tags */
 header a:hover {
     background-color: var(--light);
     transition: .5s ease;
@@ -111,6 +114,7 @@ header a:hover {
     text-decoration: none;
 }
 
+/* another exmaple of where i think i properly coded using flex. Im sure there was easier ways but the badding along with justify content really helped me */
 #Work {
     color: var(--light);
     display: flex;
@@ -149,17 +153,16 @@ section {
     left: 15px;
 }
 
+/* I tried to use the hover state as much as I could so i could practice different transitions */
 #Content h3 a:hover {
-
     background-color: var(--light);
     color: var(--dark);
     transition-duration: .75s;
-
-
 }
 
+/* I know the prompt asked for a clickable image. I found a clickable link next to said image looks much cleaner and more inline with the theme of my portfolio */
 #Content h3 a {
-    text-decoration: none;
+    text-decoration: underline;
     color: var(--light);
 }
 
@@ -176,6 +179,7 @@ section {
     margin: 30px
 }
 
+/* I decided to use a jpeg as background image so it looks better and is more customizeable and so i could also put a hover tag over the whole figure rather than just a static photo*/
 #Content figure {
     max-width: 60%;
     background-image: url('./images/First-Half.jpg.JPG');
@@ -199,6 +203,7 @@ figure p {
     margin-bottom: 10%;
 }
 
+/* Decided to add placeholder photos of my pets rather than use random placeholders from the internet! */
 #migi {
     max-width: 33%;
     background-image: url("./images/IMG_3141.jpg");
@@ -206,7 +211,7 @@ figure p {
     background-position: center;
 }
 
-
+/* Decided to add placeholder photos of my pets rather than use random placeholders from the internet! */
 #kuma {
     margin-top: 20px;
     max-width: 33%;
@@ -229,19 +234,12 @@ figure p {
     visibility: visible;
 }
 
-
-#Contact-Me {}
-
-.contact h3 {}
-
-
-
 .contact-info {
     font-size: 16px;
 }
 
 #contact-list {
-    margin: 0% 29%;
+    margin: 0% 31%;
 }
 
 #contact-list li {
@@ -249,9 +247,8 @@ figure p {
     margin: 45px 75px 5px 75px;
 }
 
+/* I decided not to add a hover element to this list item since the other 2 items in the list were't clickable. I did try messing around with making the email a clickable link but wasnt succesful in it launching a default email setting! */
 #contact-list li a {
     text-decoration: underline;
     color: var(--light);
 }
-
-/* Aria-label
